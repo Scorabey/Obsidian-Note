@@ -37,3 +37,29 @@ export const config = {
 }
 ```
 
+## Cookies
+
+> Cookies — грають роль невеликого сховища, де можна зберігати налаштування теми ли локалізації користувача
+
+### Методи
+
+- **Delete** — Видалити по name
+- **Has** — Перевірити наявність
+- **Get** — Получити по name
+- **GetAll** — Получити всі наявні кукі в користувача
+- **Set** — Встанновити нові кукі
+
+### Приклад коду
+
+```typescript
+export function middleware(request: NextRequest) {
+    let newUser = NextResponse.next()
+    newUser.cookies.set('locale', 'ua', {
+        path: '/',
+        maxAge: 60 * 60 * 24 * 365,
+        httpOnly: false
+    })
+  
+    return newUser
+}
+```

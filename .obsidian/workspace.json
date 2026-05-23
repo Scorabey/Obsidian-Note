@@ -25,14 +25,12 @@
             "id": "91e85a12b514d9f4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "IT Languges/Days/3 week/Day 2 — Next.js.md",
-                "mode": "source",
-                "source": false
+                "file": "IT Languges/Next JS/Next Js Roadmap.md"
               },
-              "icon": "lucide-file",
-              "title": "Day 2 — Next.js"
+              "icon": "excalidraw-icon",
+              "title": "Next Js Roadmap"
             }
           }
         ],
@@ -213,31 +211,31 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "44607999e940ce20",
+  "active": "91e85a12b514d9f4",
   "lastOpenFiles": [
-    "IT Languges/Next JS/Next.js Middleware.md",
-    "IT Languges/Days/3 week/Day 2 — Next.js.md",
     "IT Languges/Next JS/Next Js Roadmap.md",
+    "IT Languges/Next JS/Next.js Middleware.md",
     "IT Languges/Next JS/Next.js Рендеринг сторінок.md",
-    "IT Languges/Next JS/Next.js термінологія муршрутезації.md",
-    "templates/English learning.md",
+    "IT Languges/Days/3 week/Day 1 — Next.js.md",
+    "IT Languges/Days/2 week/Day 7 — Next.js.md",
+    "IT Languges/Days/3 week/Day 2 — Next.js.md",
+    "English/Days/2 week/Day 3 — English.md",
     "English/Days/3 week/Day 2 — English.md",
     "English/Days/3 week/Day 1 — English.md",
-    "IT Languges/Days/3 week/Day 1 — Next.js.md",
-    "IT Languges/Days/3 week",
-    "English/Days/2 week/Day 6 — English.md",
     "English/Days/2 week/Day 7 — English.md",
+    "English/Days/2 week/Day 6 — English.md",
+    "English/Days/2 week/Day 5 — English.md",
+    "IT Languges/Next JS/Next.js термінологія муршрутезації.md",
+    "templates/English learning.md",
+    "IT Languges/Days/3 week",
     "English/Days/2 week/Day 2 — English.md",
-    "English/Days/2 week/Day 3 — English.md",
     "English/Days/2 week/Day 1 — English.md",
-    "IT Languges/Days/2 week/Day 7 — Next.js.md",
     "English/Days/3 week",
     "English/Untitled.md",
     "IT Languges/Days/2 week/Day 6 — Typescript & Next.js.md",
     "IT Languges/TS/TypeScript Roadmap.md",
     "IT Languges/Days/2 week/Day 3 — Advenced Types & Types of routers.md",
     "IT Languges/Days/2 week/Day 5 — Typescript & Next.js.md",
-    "English/Days/2 week/Day 5 — English.md",
     "English/Days/1 week/Day 2 — English.md",
     "English/Days/1 week/Day 1 — English.md",
     "English/Days/2 week/Day 4 — English.md",

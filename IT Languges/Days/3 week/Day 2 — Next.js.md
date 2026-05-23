@@ -6,9 +6,9 @@ status: Завершено
 started: 2026-05-22
 last_reviewed: 2026-05-22
 next_review: 2026-05-22
-total_hours: 1.8
-progress: 90
-rating: 4
+total_hours: 2
+progress: 100
+rating: 5
 tags:
   - IT
   - learning
@@ -24,7 +24,7 @@ tags:
 | ⚡ Складність       | Intermediate |
 | 🎯 Статус          | Завершено    |
 | 📅 Початок         | 2026-05-22   |
-| ⏱️ Годин витрачено | 1.8          |
+| ⏱️ Годин витрачено | 2            |
 
 ---
 
@@ -32,7 +32,7 @@ tags:
 
 ### Пройдені теми: 
 - [x] Structuring Routes
-- [ ] Middleware
+- [x] Middleware
 	- [x] Setting Headers
 	- [x] Use Cases
 	- [x] Route matcher
