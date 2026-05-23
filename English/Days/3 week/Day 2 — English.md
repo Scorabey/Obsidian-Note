@@ -1,47 +1,40 @@
-<%* 
-let level = await tp.system.suggester(["A1 — Beginner","A2 — Elementary","B1 — Intermediate","B2 — Upper-Intermediate","C1 — Advanced","C2 — Mastery"], ["A1","A2","B1","B2","C1","C2"]) 
-let status = await tp.system.suggester(["Планую","В процесі","Завершено","Призупинено"], ["Планую","В процесі","Завершено","Призупинено"]) 
-let started = tp.date.now("YYYY-MM-DD") 
-let last_reviewed = tp.date.now("YYYY-MM-DD") 
-let next_review = tp.date.now("YYYY-MM-DD", "+7 days") 
-tR += `---
+---
 subject: English
-level: ${level}
-status: ${status}
-started: ${started}
-last_reviewed: ${last_reviewed}
-next_review: ${next_review}
-total_hours: 0
-progress: 0
-rating: 0
-anki_streak: 0
-bc_lessons_done: 0
-media_episodes_watched: 0
+level: A2
+status: Завершено
+started: 2026-05-22
+last_reviewed: 2026-05-22
+next_review: 2026-05-22
+total_hours: 1
+progress: 100
+rating: 4
+koki_streak: 12
+koki_words_learned: 0
+bc_lessons_done: 1
+media_episodes_watched: 1
 tags:
-- English-Learn
-- learning
-- english
-
+  - English-Learn
+  - learning
+  - english
 ---
 
-` -%>
 
 ## 📋 Загальна інформація
 
-|Поле|Значення|
-|---|---|
-|🌍 Мова|English|
-|🎓 Рівень|<% level %>|
-|🎯 Статус|<% status %>|
-|📅 Початок|<% started %>|
-|🔁 Наступне повторення|<% next_review %>|
-|⏱️ Годин витрачено|0|
+| Поле                   | Значення   |
+| ---------------------- | ---------- |
+| 🌍 Мова                | English    |
+| 🎓 Рівень              | A2         |
+| 🎯 Статус              | Завершено  |
+| 📅 Початок             | 2026-05-22 |
+| 🔁 Наступне повторення | 2026-05-22 |
+| ⏱️ Годин витрачено     | 0          |
 
 ---
 
 ## 🗺️ Roadmap навчання
 
-### Фаза 1: 🃏 Anki — Словниковий запас
+### Фаза 1: 🃏 Koki Flashcards — Словниковий запас
 
 - [x] Вивчити базові 100 слів (A1)
 - [ ] Пройти перший тематичний набір
@@ -67,7 +60,7 @@ tags:
 
 ---
 
-## 🃏 Фаза 1 — Anki
+## 🃏 Фаза 1 — Koki Flashcards
 
 ### Поточні набори карток
 
@@ -77,16 +70,14 @@ tags:
 
 ### 📦 Нові слова цього тижня
 
-| Слово | Транскрипція | Переклад | Приклад речення |
-| ----- | ------------ | -------- | --------------- |
-|       |              |          |                 |
-|       |              |          |                 |
-|       |              |          |                 |
+| Слово | Транскрипція | Переклад | Приклад речення     |
+| ----- | ------------ | -------- | ------------------- |
+| Nice  | [náis]       | Приємно  | She looks very nice |
 
 ### 💪 Streak та статистика
 
-- **Поточний streak:** 0 днів
-- **Максимальний streak:** 0 днів
+- **Поточний streak:** 12 днів
+- **Максимальний streak:** 12 днів
 - **Всього вивчено слів:** 0
 - **Слів повторено сьогодні:** 0
 
@@ -96,20 +87,58 @@ tags:
 
 ### Пройдені уроки
 
-| Дата | Тема уроку | Рівень | Оцінка |
-| ---- | ---------- | ------ | ------ |
-|      |            |        |        |
+| Дата       | Тема уроку              | Рівень | Оцінка |
+| ---------- | ----------------------- | ------ | ------ |
+| 21.05.2026 | Present simple: 'to be' | A1-A2  | 4      |
 
 ### 📝 Граматичні правила
 
-#### Title
+#### Contractions
 
 ```
-Правило:
+Правило: Ми можемо скоротити дієслово, особливо коли говоримо
 Приклади:
+	I am a shop assistant. = I'm a shop assistant.
+	You are a good friend! = You're a good friend!
+	He is my wife's brother. = He's my wife's brother.
+	We are very busy at the moment. = We're very busy at the moment.
+	They are on holiday in Italy. = They're on holiday in Italy.
+```
+#### Negatives
+
+```
+Правило: Негативні йдуть після дієслова, також можна скорочувати
+Приклади:
+	I am not at work. = I'm not at work. Note: I amn't is not possible.
+	She is not a student. = She's not a student. = She isn't a student.
+	Money is not important. = Money's not important. = Money isn't important.
+	We are not hungry. = We're not hungry. = We aren't hungry.
+	They are not at home. = They're not at home. = They aren't at home.
 ```
 
-> [!tip] Додавай нові правила за цим шаблоном нижче
+#### Questions
+
+```
+Правило: Для питальних порядок am змінюється
+Приклади:
+	Are you tired?
+	Is she Mexican?
+	Is this your phone?
+	Are we late?
+	Are they your children?
+```
+
+#### Short answers
+
+| Affirmative    | Negative          | (Verb contracted) | (_not_ contracted) |
+| -------------- | ----------------- | ----------------- | ------------------ |
+| Yes, I am.     | No, I am not.     | No, I'm not.      | ~~No, I amn't.~~   |
+| Yes, you are.  | No, you are not.  | No, you're not.   | No, you aren't.    |
+| Yes, we are.   | No, we are not.   | No, we're not.    | No, we aren't.     |
+| Yes, they are. | No, they are not. | No, they're not.  | No, they aren't.   |
+| Yes, he is.    | No, he is not.    | No, he's not.     | No, he isn't.      |
+| Yes, she is.   | No, she is not.   | No, she's not.    | No, she isn't.     |
+| Yes, it is.    | No, it is not.    | No, it's not.     | No, it isn't.      |
 
 ---
 
@@ -117,25 +146,15 @@ tags:
 
 ### Що дивлюсь зараз
 
-|Назва|Тип|Мова|Субтитри|Серія|Статус|
-|---|---|---|---|---|---|
-|||||||
-
-### 🗣️ Книга цитат та фраз
-
-> Виписуй фрази, які тебе вразили, здивували або просто сподобались
-
-| Фраза | З чого | Переклад / Контекст |
-| ----- | ------ | ------------------- |
-|       |        |                     |
-|       |        |                     |
-|       |        |                     |
+| Назва       | Тип   | Мова    | Субтитри | Серія | Статус    |
+| ----------- | ----- | ------- | -------- | ----- | --------- |
+| Castelvania | Anime | English | English  | 9     | Завершено |
 
 ### 📺 Журнал перегляду
 
-| Дата | Назва | Епізод | Нові слова | Нові фрази | Час (хв) |
-| ---- | ----- | ------ | ---------- | ---------- | -------- |
-|      |       |        |            |            |          |
+| Дата       | Назва       | Епізод | Нові слова | Нові фрази | Час (хв) |
+| ---------- | ----------- | ------ | ---------- | ---------- | -------- |
+| 21.05.2026 | Castelvania | 9      |            |            | 25       |
 
 ---
 
@@ -153,13 +172,14 @@ tags:
 
 ## 📝 Щоденник навчання
 
-### <% tp.date.now("YYYY-MM-DD") %> — Початок
+### 2026-05-22 — Початок
 
 #### **British Council — що вивчав(ла):**
 
 #### **Медіа — що дивився(лась):**
-
+Castelvania
 #### **Час (год):**
+1 година
 
 ---
 
@@ -324,4 +344,4 @@ if (related.length > 0) {
 
 ---
 
-_Шаблон створено: <% tp.date.now("YYYY-MM-DD") %> | Оновлено: <% tp.date.now("YYYY-MM-DD") %>_
+_Шаблон створено: 2026-05-22 | Оновлено: 2026-05-22_
