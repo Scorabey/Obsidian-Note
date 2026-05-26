@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT Languges/Days/3 week/Day 1 — Next.js.md",
+                "file": "IT Languges/Days/3 week/Day 3 — Next.js.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day 1 — Next.js"
+              "title": "Day 3 — Next.js"
             }
           },
           {
@@ -33,8 +33,7 @@
               "title": "Next Js Roadmap"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -211,26 +210,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "91e85a12b514d9f4",
+  "active": "44607999e940ce20",
   "lastOpenFiles": [
     "IT Languges/Next JS/Next Js Roadmap.md",
-    "IT Languges/Next JS/Next.js Middleware.md",
-    "IT Languges/Next JS/Next.js Рендеринг сторінок.md",
+    "IT Languges/Days/3 week/Day 3 — Next.js.md",
     "IT Languges/Days/3 week/Day 1 — Next.js.md",
+    "IT Languges/Next JS/Next.js Middleware.md",
+    "English/Days/3 week/Day 3 — English.md",
+    "English/Days/3 week/Day 2 — English.md",
+    "templates/English learning.md",
+    "Projects/Olympus/Olympus Схема сайту.md",
+    "_files/r_popular — Mozilla Firefox 2026-05-24 10-58-37.mp4",
+    "_files/r_popular — Mozilla Firefox 2026-05-24 10-56-46.mp4",
+    "_files/Новини Reddit — Mozilla Firefox 2026-05-24 10-55-41.mp4",
+    "_files/Reddit — Живе серце інтернету — Mozilla Firefox 2026-05-24 10-54-19.mp4",
+    "_files/Reddit — Живе серце інтернету — Mozilla Firefox 2026-05-24 10-53-20.mp4",
+    "_files/Reddit — Живе серце інтернету — Mozilla Firefox 2026-05-24 10-52-30.mp4",
+    "_files/Reddit — Живе серце інтернету — Mozilla Firefox 2026-05-24 10-45-56.mp4",
+    "Projects/Olympus",
+    "Projects",
+    "IT Languges/Next JS/Next.js Рендеринг сторінок.md",
     "IT Languges/Days/2 week/Day 7 — Next.js.md",
     "IT Languges/Days/3 week/Day 2 — Next.js.md",
     "English/Days/2 week/Day 3 — English.md",
-    "English/Days/3 week/Day 2 — English.md",
     "English/Days/3 week/Day 1 — English.md",
     "English/Days/2 week/Day 7 — English.md",
     "English/Days/2 week/Day 6 — English.md",
     "English/Days/2 week/Day 5 — English.md",
     "IT Languges/Next JS/Next.js термінологія муршрутезації.md",
-    "templates/English learning.md",
     "IT Languges/Days/3 week",
     "English/Days/2 week/Day 2 — English.md",
     "English/Days/2 week/Day 1 — English.md",
-    "English/Days/3 week",
     "English/Untitled.md",
     "IT Languges/Days/2 week/Day 6 — Typescript & Next.js.md",
     "IT Languges/TS/TypeScript Roadmap.md",
@@ -238,20 +248,9 @@
     "IT Languges/Days/2 week/Day 5 — Typescript & Next.js.md",
     "English/Days/1 week/Day 2 — English.md",
     "English/Days/1 week/Day 1 — English.md",
-    "English/Days/2 week/Day 4 — English.md",
-    "English/Days/2 week/Без названия.md",
     "_files/f4fd3d638cf86f46218cc36e37109507_86cf658e.webp",
-    "thumbnails/resized",
-    "thumbnails",
     "_files/Pasted image 20260518145629.png",
-    "IT Languges/JS/Работа с файлами пользователя/Blob.md",
-    "IT Languges/Next JS",
     "_files/typescript.png",
-    "Chacking git",
-    "dasdada",
-    "Main",
-    "IT Languges/Days/2 week",
-    "English/Days/2 week",
     "_files/Next JS Roadmap.png",
     "_files/TS.png",
     "IT Languges/TS/TypeScript RoadMap.canvas",

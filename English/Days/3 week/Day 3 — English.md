@@ -1,41 +1,33 @@
-<%* 
-let level = await tp.system.suggester(["A1 — Beginner","A2 — Elementary","B1 — Intermediate","B2 — Upper-Intermediate","C1 — Advanced","C2 — Mastery"], ["A1","A2","B1","B2","C1","C2"]) 
-let status = await tp.system.suggester(["Планую","В процесі","Завершено","Призупинено"], ["Планую","В процесі","Завершено","Призупинено"]) 
-let started = tp.date.now("YYYY-MM-DD") 
-let last_reviewed = tp.date.now("YYYY-MM-DD") 
-let next_review = tp.date.now("YYYY-MM-DD", "+7 days") 
-tR += `---
+---
 subject: English
-level: ${level}
-status: ${status}
-started: ${started}
-last_reviewed: ${last_reviewed}
-next_review: ${next_review}
-total_hours: 0
-progress: 0
-rating: 0
-anki_streak: 0
-bc_lessons_done: 0
+level: A2
+status: Завершено
+started: 2026-05-25
+last_reviewed: 2026-05-25
+next_review: 2026-05-25
+total_hours: 0.5
+progress: 100
+rating: 3
+anki_streak: 13
+bc_lessons_done: 1
 media_episodes_watched: 0
 tags:
-- English-Learn
-- learning
-- english
-
+  - English-Learn
+  - learning
+  - english
 ---
 
-` -%>
 
 ## 📋 Загальна інформація
 
-|Поле|Значення|
-|---|---|
-|🌍 Мова|English|
-|🎓 Рівень|<% level %>|
-|🎯 Статус|<% status %>|
-|📅 Початок|<% started %>|
-|🔁 Наступне повторення|<% next_review %>|
-|⏱️ Годин витрачено|0|
+| Поле                   | Значення   |
+| ---------------------- | ---------- |
+| 🌍 Мова                | English    |
+| 🎓 Рівень              | A2         |
+| 🎯 Статус              | Завершено  |
+| 📅 Початок             | 2026-05-25 |
+| 🔁 Наступне повторення | 2026-05-25 |
+| ⏱️ Годин витрачено     | 0          |
 
 ---
 
@@ -77,16 +69,18 @@ tags:
 
 ### 📦 Нові слова цього тижня
 
-| Слово | Транскрипція | Переклад | Приклад речення |
-| ----- | ------------ | -------- | --------------- |
-|       |              |          |                 |
-|       |              |          |                 |
-|       |              |          |                 |
+| Слово  | Транскрипція | Переклад    | Приклад речення       |
+| ------ | ------------ | ----------- | --------------------- |
+| Few    | [fjuː]       | Декілька    | A few ideas           |
+| little | [ˈlɪt̬.əl]   | Трошкі      | A little water        |
+| loud   | [ láud]      | голосно     | Hes watch a loud film |
+| worry  | [ wʌ́ri]     | турбуватися | He worried            |
+| hope   | [hóup]       | надія       | He hopes to better    |
 
 ### 💪 Streak та статистика
 
-- **Поточний streak:** 0 днів
-- **Максимальний streak:** 0 днів
+- **Поточний streak:** 13 днів
+- **Максимальний streak:** 13 днів
 - **Слів повторено сьогодні:** 0
 
 ---
@@ -95,17 +89,21 @@ tags:
 
 ### Пройдені уроки
 
-| Дата | Тема уроку | Рівень | Оцінка |
-| ---- | ---------- | ------ | ------ |
-|      |            |        |        |
+| Дата       | Тема уроку                                           | Рівень | Оцінка |
+| ---------- | ---------------------------------------------------- | ------ | ------ |
+| 25.05.2026 | Quantifiers: 'few', 'a few', 'little' and 'a bit of' | A1-A2  | 4      |
 
 ### 📝 Граматичні правила
 
-#### Title
+#### Grammar Explanation
 
 ```
-Правило:
+Правило: Ми використовуємо few для злічуваних іммеників, та a bir of & little для не злічувальних
 Приклади:
+	A few ideas
+	A few friends
+	A little water
+	A bit of money
 ```
 
 > [!tip] Додавай нові правила за цим шаблоном нижче
@@ -152,13 +150,12 @@ tags:
 
 ## 📝 Щоденник навчання
 
-### <% tp.date.now("YYYY-MM-DD") %> — Початок
+### 2026-05-25 — Початок
 
 #### **British Council — що вивчав(ла):**
-
-#### **Медіа — що дивився(лась):**
-
+Quantifiers: 'few', 'a few', 'little' and 'a bit of'
 #### **Час (год):**
+30 хвилин
 
 ---
 
@@ -323,4 +320,4 @@ if (related.length > 0) {
 
 ---
 
-_Шаблон створено: <% tp.date.now("YYYY-MM-DD") %> | Оновлено: <% tp.date.now("YYYY-MM-DD") %>_
+_Шаблон створено: 2026-05-25 | Оновлено: 2026-05-25_
