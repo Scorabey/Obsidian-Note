@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "92fe2a74b709225a",
+            "id": "fbc0ddc8155b2c60",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IT Languges/Days/3 week/Day 3 — Next.js.md",
+                "file": "IT Languges/Days/3 week/Day 5 — Next.js.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day 3 — Next.js"
+              "title": "Day 5 — Next.js"
             }
           },
           {
@@ -210,15 +210,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "44607999e940ce20",
+  "active": "fbc0ddc8155b2c60",
   "lastOpenFiles": [
-    "IT Languges/Next JS/Next Js Roadmap.md",
+    "IT Languges/Days/3 week/Day 4 — Next.js.md",
     "IT Languges/Days/3 week/Day 3 — Next.js.md",
-    "IT Languges/Days/3 week/Day 1 — Next.js.md",
+    "IT Languges/Days/3 week/Day 5 — Next.js.md",
+    "IT Languges/Next JS/Next Js Roadmap.md",
     "IT Languges/Next JS/Next.js Middleware.md",
-    "English/Days/3 week/Day 3 — English.md",
-    "English/Days/3 week/Day 2 — English.md",
     "templates/English learning.md",
+    "English/Days/3 week/Day 5 — English.md",
+    "English/Days/2 week/Day 4 — English.md",
+    "English/Days/3 week/Day 4 — English.md",
+    "English/Phrase.md",
+    "English/Days/3 week/Day 3 — English.md",
+    "історія України/Тема 30/Тема 30 Дати, персоналії та поняття.md",
+    "IT Languges/Days/3 week/Day 1 — Next.js.md",
+    "English/Days/3 week/Day 2 — English.md",
     "Projects/Olympus/Olympus Схема сайту.md",
     "_files/r_popular — Mozilla Firefox 2026-05-24 10-58-37.mp4",
     "_files/r_popular — Mozilla Firefox 2026-05-24 10-56-46.mp4",
@@ -241,13 +248,6 @@
     "IT Languges/Days/3 week",
     "English/Days/2 week/Day 2 — English.md",
     "English/Days/2 week/Day 1 — English.md",
-    "English/Untitled.md",
-    "IT Languges/Days/2 week/Day 6 — Typescript & Next.js.md",
-    "IT Languges/TS/TypeScript Roadmap.md",
-    "IT Languges/Days/2 week/Day 3 — Advenced Types & Types of routers.md",
-    "IT Languges/Days/2 week/Day 5 — Typescript & Next.js.md",
-    "English/Days/1 week/Day 2 — English.md",
-    "English/Days/1 week/Day 1 — English.md",
     "_files/f4fd3d638cf86f46218cc36e37109507_86cf658e.webp",
     "_files/Pasted image 20260518145629.png",
     "_files/typescript.png",

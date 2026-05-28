@@ -3,10 +3,10 @@ language: typescript
 category: Frontend
 difficulty: Advanced
 status: Завершено
-started: 2026-05-25
-last_reviewed: 2026-05-25
-next_review: 2026-05-25
-total_hours: 1.5
+started: 2026-05-27
+last_reviewed: 2026-05-27
+next_review: 2026-05-27
+total_hours: 2
 progress: 100
 rating: 4
 tags:
@@ -23,87 +23,40 @@ tags:
 | 📂 Категорія       | Frontend   |
 | ⚡ Складність       | Advanced   |
 | 🎯 Статус          | Завершено  |
-| 📅 Початок         | 2026-05-25 |
-| ⏱️ Годин витрачено | 0          |
+| 📅 Початок         | 2026-05-27 |
+| ⏱️ Годин витрачено | 2          |
 
 ---
 
 ## 🗺️ Roadmap навчання
 
 ### Пройдені теми: 
-- [x] Fetching location
-	- [x] Client
-	- [x] Server
-- [x] Caching data
-	- [x] Memoization in fetch
-	- [x] React cache
-	- [x] Revalidate caching data
-- [x] Data fetching patterns 
-	- [x] Parallel VS Sequential
-	- [x] Preloading data
+- [x] Rendering
+	- [x] Composition
+- [x] Runtimes
+	- [x] Node JS
+	- [x] Edge
 ---
 
 ## 📚 Ресурси для навчання
 
 ### Документація
-- [Fetching location](https://nextjs.org/docs/app/getting-started/fetching-data#client-components)
-- [React cache](https://react.dev/reference/react/cache)
-- [Data fetching patterns ](https://nextjs.org/docs/14/app/building-your-application/data-fetching/patterns#preventing-sensitive-data-from-being-exposed-to-the-client)
----
-
-## 🧠 Вивчені концепції
-
-### Синтаксис
-
-```typescript
-// Fetching location Client
-'use client'
-
-import { useState, useEffect } from 'react'
-
-function LocationMap() {
-	const [locations, setLocations] = useState([])
-	const [loading, setLoading] = useState(true)
-	
-	useEffect(() => {
-		fetch('/api/locations')
-			.then(target => target.json())
-			.then(data => {
-				setLocations(data)
-				setLoading(false)
-			})
-	}, [])
-}
-
-// Server
-async function LocationPage() {
-	const res = await fetch('https://api.example.com/locations', {
-		cache: 'force-cache',
-		// next: { revalidate: 60 },
-		// cache: 'no-store'
-	})
-}
-
-// Revalidation cached data
-async function UpdatePost(id: string) {
-	await db.post.update(...)
-	
-	revalidatePath('/blog/${id}')
-}
-```
-
+- [Composition](https://nextjs.org/docs/14/app/building-your-application/rendering/composition-patterns)
+- [Runtimes](https://nextjs.org/docs/14/app/building-your-application/rendering/edge-and-nodejs-runtimes)
 ---
 ## 📝 Щоденник навчання
 
-### 2026-05-25 — Початок
+### 2026-05-27 — Початок
 
 ### **Що вивчав:**
-- [Fetching location](https://nextjs.org/docs/app/getting-started/fetching-data#client-components)
-- [React cache](https://react.dev/reference/react/cache)
-- [Data fetching patterns ](https://nextjs.org/docs/14/app/building-your-application/data-fetching/patterns#preventing-sensitive-data-from-being-exposed-to-the-client)
+- Rendering
+- Composition
+- Runtimes
+- Node JS
+- Edge
 
 ### **Час (год):** 
-1 година 30 хв.
+2 
 
 ---
 
@@ -320,4 +273,4 @@ if (related.length > 0) {
 
 ---
 
-*Шаблон створено: 2026-05-25 | Оновлено: 2026-05-25
+*Шаблон створено: 2026-05-27 | Оновлено: 2026-05-27

@@ -1,40 +1,32 @@
-<%* 
-let level = await tp.system.suggester(["A1 — Beginner","A2 — Elementary","B1 — Intermediate","B2 — Upper-Intermediate","C1 — Advanced","C2 — Mastery"], ["A1","A2","B1","B2","C1","C2"]) 
-let status = await tp.system.suggester(["Планую","В процесі","Завершено","Призупинено"], ["Планую","В процесі","Завершено","Призупинено"]) 
-let started = tp.date.now("YYYY-MM-DD") 
-let last_reviewed = tp.date.now("YYYY-MM-DD") 
-let next_review = tp.date.now("YYYY-MM-DD", "+7 days") 
-tR += `---
+---
 subject: English
-level: ${level}
-status: ${status}
-started: ${started}
-last_reviewed: ${last_reviewed}
-next_review: ${next_review}
-total_hours: 0
-progress: 0
-rating: 0
-anki_streak: 0
-bc_lessons_done: 0
-media_episodes_watched: 0
+level: A2
+status: В процесі
+started: 2026-05-26
+last_reviewed: 2026-05-26
+next_review: 2026-05-26
+total_hours: 0.5
+progress: 66
+rating: 4
+anki_streak: 14
+bc_lessons_done: 1
+media_episodes_watched: 1
 tags:
-- English-Learn
-- learning
-- english
-
+  - English-Learn
+  - learning
+  - english
 ---
 
-` -%>
 
 ## 📋 Загальна інформація
 
 |Поле|Значення|
 |---|---|
 |🌍 Мова|English|
-|🎓 Рівень|<% level %>|
-|🎯 Статус|<% status %>|
-|📅 Початок|<% started %>|
-|🔁 Наступне повторення|<% next_review %>|
+|🎓 Рівень|A2|
+|🎯 Статус|В процесі|
+|📅 Початок|2026-05-26|
+|🔁 Наступне повторення|2026-05-26|
 |⏱️ Годин витрачено|0|
 
 ---
@@ -77,17 +69,19 @@ tags:
 
 ### 📦 Нові слова цього тижня
 
-| Слово | Транскрипція | Переклад | Приклад речення |
-| ----- | ------------ | -------- | --------------- |
-|       |              |          |                 |
-|       |              |          |                 |
-|       |              |          |                 |
+| Слово  | Транскрипція | Переклад  |
+| ------ | ------------ | --------- |
+| Able   | [ éibl]      | Здатний   |
+| Alone  | [ əlóun]     | Самостній |
+| Catch  | [ kǽtʃ]      | Зловити   |
+| Thin   | [ θín]       | Тонкий    |
+| Invoke | [ɪnˈvoʊk]    | Викликати |
 
 ### 💪 Streak та статистика
 
-- **Поточний streak:** 0 днів
-- **Максимальний streak:** 0 днів
-- **Слів повторено сьогодні:** 0
+- **Поточний streak:** 14 днів
+- **Максимальний streak:** 14 днів
+- **Слів повторено сьогодні:** 20
 
 ---
 
@@ -95,18 +89,55 @@ tags:
 
 ### Пройдені уроки
 
-| Дата | Тема уроку | Рівень | Оцінка |
-| ---- | ---------- | ------ | ------ |
-|      |            |        |        |
+| Дата       | Тема уроку     | Рівень | Оцінка |
+| ---------- | -------------- | ------ | ------ |
+| 26.05.2026 | Question forms | A1-A2  | 4      |
 
 ### 📝 Граматичні правила
 
-#### Title
+#### Grammar Explanation
 
 ```
-Правило:
-Приклади:
+Правило: Щоб поставити запитання, нам потрібно поставити дієслово перед підметом
 ```
+
+| Affirmative             | Question                  |
+| ----------------------- | ------------------------- |
+| I **am** late.          | _**Am** I_ late?          |
+| I **can** help.         | _**Can** I_ help?         |
+| She **is** sleeping.    | _**Is** she_ sleeping?    |
+| We **have** met before. | _**Have** we_ met before? |
+
+```
+Правило: Якщо це питальне слово ( Why, what, where, how ), воно стоїть перед дієсловом 
+```
+
+| Question            | Question with question word   |
+| ------------------- | ----------------------------- |
+| Are you late?       | _**Why** are you late?_       |
+| Was she there?      | _**When** was she there?_     |
+| Can I help?         | _**How** can I help?_         |
+| Have we met before? | **Where** have we met before? |
+
+#### Questions in the present simple and past simple
+
+```
+Правило: Для остальних дієслів в present simple, ми використовуємо допоміжне дієслово do/does в питаннях
+```
+
+| Affirmative       | Question                     | Question with question word  |
+| ----------------- | ---------------------------- | ---------------------------- |
+| You work at home. | **Do** you **work** at home? | Where **do** you work?       |
+| It costs £10.     | _**Does** it cost £10?_      | _How much **does** it cost?_ |
+
+```
+Правило: ми використовуємо в допоміжних дієсловах did в past simple
+```
+
+| Affirmative              | Question                           | Question with question word |
+| ------------------------ | ---------------------------------- | --------------------------- |
+| She went home.           | _**Did** she **go** home?_         | Where **did** she go?       |
+| They went to the cinema. | **Did** they **go** to the cinema? | Where **did** they go?      |
 
 > [!tip] Додавай нові правила за цим шаблоном нижче
 
@@ -116,25 +147,15 @@ tags:
 
 ### Що дивлюсь зараз
 
-|Назва|Тип|Мова|Субтитри|Серія|Статус|
-|---|---|---|---|---|---|
-|||||||
-
-### 🗣️ Книга цитат та фраз
-
-> Виписуй фрази, які тебе вразили, здивували або просто сподобались
-
-| Фраза | З чого | Переклад / Контекст |
-| ----- | ------ | ------------------- |
-|       |        |                     |
-|       |        |                     |
-|       |        |                     |
+| Назва                                                       | Тип   | Мова    | Субтитри | Статус    |
+| ----------------------------------------------------------- | ----- | ------- | -------- | --------- |
+| [MrBeast](https://youtu.be/AaMdXZMvT3w?si=wsrRRFzb1bqc_dHa) | Movie | English | English  | Завершено |
 
 ### 📺 Журнал перегляду
 
-| Дата | Назва | Епізод | Нові слова | Нові фрази | Час (хв) |
-| ---- | ----- | ------ | ---------- | ---------- | -------- |
-|      |       |        |            |            |          |
+| Дата       | Назва                                                       | Нові слова | Нові фрази | Час (хв) |
+| ---------- | ----------------------------------------------------------- | ---------- | ---------- | -------- |
+| 26.05.2026 | [MrBeast](https://youtu.be/AaMdXZMvT3w?si=wsrRRFzb1bqc_dHa) |            |            | 39       |
 
 ---
 
@@ -152,13 +173,14 @@ tags:
 
 ## 📝 Щоденник навчання
 
-### <% tp.date.now("YYYY-MM-DD") %> — Початок
+### 2026-05-26 — Початок
 
 #### **British Council — що вивчав(ла):**
-
+Question forms
 #### **Медіа — що дивився(лась):**
-
+[MrBeast](https://youtu.be/AaMdXZMvT3w?si=wsrRRFzb1bqc_dHa)
 #### **Час (год):**
+1
 
 ---
 
@@ -181,7 +203,7 @@ const totalHours = page.total_hours || 0;
 const progress = page.progress || 0;
 const rating = page.rating || 0;
 const started = page.started || "—";
-const kokiStreak = page.anki_streak || 0;
+const kokiStreak = page.koki_streak || 0;
 const kokiWords = page.koki_words_learned || 0;
 const bcLessons = page.bc_lessons_done || 0;
 const mediaEps = page.media_episodes_watched || 0;
@@ -268,7 +290,7 @@ dv.paragraph(`
 // ============================================
 const content = await dv.io.load(page.file.path);
 const phases = [
-  { name: "Фаза 1: 🃏 Anki", emoji: "🃏", color: "#f59e0b" },
+  { name: "Фаза 1: 🃏 Koki Flashcards", emoji: "🃏", color: "#f59e0b" },
   { name: "Фаза 2: 📖 British Council", emoji: "📖", color: "#4a9eff" },
   { name: "Фаза 3: 🎬 Медіа", emoji: "🎬", color: "#ef4444" }
 ];
@@ -323,4 +345,4 @@ if (related.length > 0) {
 
 ---
 
-_Шаблон створено: <% tp.date.now("YYYY-MM-DD") %> | Оновлено: <% tp.date.now("YYYY-MM-DD") %>_
+_Шаблон створено: 2026-05-26 | Оновлено: 2026-05-26_

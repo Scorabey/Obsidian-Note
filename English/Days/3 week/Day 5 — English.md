@@ -1,41 +1,33 @@
-<%* 
-let level = await tp.system.suggester(["A1 — Beginner","A2 — Elementary","B1 — Intermediate","B2 — Upper-Intermediate","C1 — Advanced","C2 — Mastery"], ["A1","A2","B1","B2","C1","C2"]) 
-let status = await tp.system.suggester(["Планую","В процесі","Завершено","Призупинено"], ["Планую","В процесі","Завершено","Призупинено"]) 
-let started = tp.date.now("YYYY-MM-DD") 
-let last_reviewed = tp.date.now("YYYY-MM-DD") 
-let next_review = tp.date.now("YYYY-MM-DD", "+7 days") 
-tR += `---
+---
 subject: English
-level: ${level}
-status: ${status}
-started: ${started}
-last_reviewed: ${last_reviewed}
-next_review: ${next_review}
-total_hours: 0
-progress: 0
-rating: 0
-anki_streak: 0
-bc_lessons_done: 0
-media_episodes_watched: 0
+level: A2
+status: Завершено
+started: 2026-05-27
+last_reviewed: 2026-05-27
+next_review: 2026-05-27
+total_hours: 1
+progress: 100
+rating: 4
+anki_streak: 15
+bc_lessons_done: 1
+media_episodes_watched: 1
 tags:
-- English-Learn
-- learning
-- english
-
+  - English-Learn
+  - learning
+  - english
 ---
 
-` -%>
 
 ## 📋 Загальна інформація
 
-|Поле|Значення|
-|---|---|
-|🌍 Мова|English|
-|🎓 Рівень|<% level %>|
-|🎯 Статус|<% status %>|
-|📅 Початок|<% started %>|
-|🔁 Наступне повторення|<% next_review %>|
-|⏱️ Годин витрачено|0|
+| Поле                   | Значення   |
+| ---------------------- | ---------- |
+| 🌍 Мова                | English    |
+| 🎓 Рівень              | A2         |
+| 🎯 Статус              | Завершено  |
+| 📅 Початок             | 2026-05-27 |
+| 🔁 Наступне повторення | 2026-05-27 |
+| ⏱️ Годин витрачено     | 1          |
 
 ---
 
@@ -77,17 +69,15 @@ tags:
 
 ### 📦 Нові слова цього тижня
 
-| Слово | Транскрипція | Переклад | Приклад речення |
-| ----- | ------------ | -------- | --------------- |
-|       |              |          |                 |
-|       |              |          |                 |
-|       |              |          |                 |
+| Слово | Транскрипція | Переклад |
+| ----- | ------------ | -------- |
+| Kind  | [kaɪnd]      | Сорт     |
 
 ### 💪 Streak та статистика
 
-- **Поточний streak:** 0 днів
-- **Максимальний streak:** 0 днів
-- **Слів повторено сьогодні:** 0
+- **Поточний streak:** 15 днів
+- **Максимальний streak:** 15 днів
+- **Слів повторено сьогодні:** 20
 
 ---
 
@@ -95,19 +85,47 @@ tags:
 
 ### Пройдені уроки
 
-| Дата | Тема уроку | Рівень | Оцінка |
-| ---- | ---------- | ------ | ------ |
-|      |            |        |        |
+| Дата       | Тема уроку                       | Рівень | Оцінка |
+| ---------- | -------------------------------- | ------ | ------ |
+| 27.05.2026 | Using 'there is' and 'there are' | A1-A2  | 4      |
 
 ### 📝 Граматичні правила
 
-#### Title
+#### Affirmative
 
 ```
-Правило:
+Правило: Ми використовуєм there, щоб сказати про існування, чогось в цьому місці
 Приклади:
-```
+	There is a bridge in the park.
 
+Правило: Ми використовуєм is для однини та are, для множини
+Приклади:
+	There is a plant on the garden
+	There are many plant on the garden
+
+Правило: Ми можему скоростити there is — there`s, но не можемо there are — there`re
+Приклади:
+	There is a restaurant in the station. > There's a restaurant in the station.
+	There are two cafés. > There're two cafés.
+```
+#### Negative
+
+```
+Правило: Для негативного речення, ми використовуэмо there isn`t or there`s not для однини, та there aren`t для множини
+Приклади:
+	There isn't a pharmacy near the hotel.
+	There aren't any restaurants near the hotel.
+```
+#### Question
+
+```
+Правило: Is there — однина, are there — множина
+Приклади:
+	Is there a café near here?
+	Is there any milk in the fridge?
+	Are there any toilets in the park?
+```
+ 
 > [!tip] Додавай нові правила за цим шаблоном нижче
 
 ---
@@ -116,25 +134,15 @@ tags:
 
 ### Що дивлюсь зараз
 
-|Назва|Тип|Мова|Субтитри|Серія|Статус|
-|---|---|---|---|---|---|
-|||||||
-
-### 🗣️ Книга цитат та фраз
-
-> Виписуй фрази, які тебе вразили, здивували або просто сподобались
-
-| Фраза | З чого | Переклад / Контекст |
-| ----- | ------ | ------------------- |
-|       |        |                     |
-|       |        |                     |
-|       |        |                     |
+| Назва                                                       | Тип   | Мова    | Субтитри | Серія | Статус    |
+| ----------------------------------------------------------- | ----- | ------- | -------- | ----- | --------- |
+| [YouTube](https://youtu.be/4TXeV9rSWrc?si=L8I9Xnv31dPE6eQP) | Movie | English | English  | 1     | Завершено |
 
 ### 📺 Журнал перегляду
 
-| Дата | Назва | Епізод | Нові слова | Нові фрази | Час (хв) |
-| ---- | ----- | ------ | ---------- | ---------- | -------- |
-|      |       |        |            |            |          |
+| Дата       | Назва                                                       | Епізод | Нові слова | Нові фрази | Час (хв) |
+| ---------- | ----------------------------------------------------------- | ------ | ---------- | ---------- | -------- |
+| 27.05.2026 | [YouTube](https://youtu.be/4TXeV9rSWrc?si=L8I9Xnv31dPE6eQP) | 1      |            |            | 24       |
 
 ---
 
@@ -152,13 +160,14 @@ tags:
 
 ## 📝 Щоденник навчання
 
-### <% tp.date.now("YYYY-MM-DD") %> — Початок
+### 2026-05-27 — Початок
 
 #### **British Council — що вивчав(ла):**
-
+Using 'there is' and 'there are'
 #### **Медіа — що дивився(лась):**
-
+[YouTube](https://youtu.be/4TXeV9rSWrc?si=L8I9Xnv31dPE6eQP)
 #### **Час (год):**
+1
 
 ---
 
@@ -323,4 +332,4 @@ if (related.length > 0) {
 
 ---
 
-_Шаблон створено: <% tp.date.now("YYYY-MM-DD") %> | Оновлено: <% tp.date.now("YYYY-MM-DD") %>_
+_Шаблон створено: 2026-05-27 | Оновлено: 2026-05-27_
