@@ -2,15 +2,14 @@
 subject: English
 level: A2
 status: Завершено
-started: 2026-05-07
-last_reviewed: 2026-05-07
-next_review: 2026-05-07
+started: 2026-05-30
+last_reviewed: 2026-05-30
+next_review: 2026-05-30
 total_hours: 1
 progress: 100
 rating: 4
-koki_streak: 3
-koki_words_learned: 356
-bc_lessons_done: 3
+anki_streak: 17
+bc_lessons_done: 1
 media_episodes_watched: 1
 tags:
   - English-Learn
@@ -21,20 +20,20 @@ tags:
 
 ## 📋 Загальна інформація
 
-|Поле|Значення|
-|---|---|
-|🌍 Мова|English|
-|🎓 Рівень|A2|
-|🎯 Статус|В процесі|
-|📅 Початок|2026-05-07|
-|🔁 Наступне повторення|2026-05-07|
-|⏱️ Годин витрачено|0|
+| Поле                   | Значення   |
+| ---------------------- | ---------- |
+| 🌍 Мова                | English    |
+| 🎓 Рівень              | A2         |
+| 🎯 Статус              | Завершено  |
+| 📅 Початок             | 2026-05-30 |
+| 🔁 Наступне повторення | 2026-05-30 |
+| ⏱️ Годин витрачено     | 1          |
 
 ---
 
 ## 🗺️ Roadmap навчання
 
-### Фаза 1: 🃏 Koki Flashcards — Словниковий запас
+### Фаза 1: 🃏 Anki — Словниковий запас
 
 - [x] Вивчити базові 100 слів (A1)
 - [ ] Пройти перший тематичний набір
@@ -60,31 +59,18 @@ tags:
 
 ---
 
-## 🃏 Фаза 1 — Koki Flashcards
+## 🃏 Фаза 1 — Anki
 
 ### Поточні набори карток
 
-| Набір                    | Слів | Вивчено | Статус |
-| ------------------------ | ---- | ------- | ------ |
-| 1000 Basic English Words | 1000 | 356     | Планую |
-
-### 📦 Нові слова цього тижня
-
-| Слово   | Транскрипція | Переклад       | Приклад речення        |
-| ------- | ------------ | -------------- | ---------------------- |
-| Corn    | [ko:n]       | Кукурудза      | Big tasty corn         |
-| Fast    | [fa:st]      | Швидко         | Moving faster          |
-| Away    | [a'wei]      | Геть           | Go away from country   |
-| Shower  | ['shauer]    | Душ            | So hot water in shower |
-| Sock    | [sok]        | Носок          | Sock in my leg         |
-| Mailbox | [meilboks]   | Поштова скриня | Mail in my mailbox     |
-| Serve   | [se:v]       | Подавайте      | Serve my food          |
+| Набір                    | Слів | Статус    |
+| ------------------------ | ---- | --------- |
+| 1000 Basic English Words | 1000 | В процесі |
 
 ### 💪 Streak та статистика
 
-- **Поточний streak:** 3 днів
-- **Максимальний streak:** 3 днів
-- **Всього вивчено слів:** 361
+- **Поточний streak:** 18 днів
+- **Максимальний streak:** 18 днів
 - **Слів повторено сьогодні:** 20
 
 ---
@@ -93,50 +79,9 @@ tags:
 
 ### Пройдені уроки
 
-| Дата       | Тема уроку                            | Рівень | Оцінка | Нотатки |
-| ---------- | ------------------------------------- | ------ | ------ | ------- |
-| 07.05.2026 | Adjectives and preprositions          | A1-A2  | 4      |         |
-| 07.05.2026 | Adjectives ending in '-ed' and '-ing' | A1-A2  | 4      |         |
-| 07.05.2026 | Articles: 'a', 'an', 'the'            | A1-A2  | 5      |         |
-
-### 📝 Граматичні правила
-
-#### Jobs
-
-```
-Правило: Коли ми говоримо про професію людини
-Приклади:
-	He`s an architect
-	Your mom a teacher
-```
-#### Singular nouns
-
-```
-Правило: Ми використовуєм a/an коли говорим про щось в однині, вперше
-Приклади: 
-	I drink a good coctail
-	i saw a good fils yesterday
-```
-```
-Правило: Ми використовуємо a коли наступне слово починаэться с приголосного, та an коли починається з голосного звука
-Приклади:
-	She has a university degree
-	It took me an hour to get home
-```
-```
-Правило: Ми використовуємо the коли слухач знає, або вже чув про що ми говорим, або коли предмет є тільки в однині
-Приклади:
-	I'm going to take **the** dog for a walk
-	Have you seen **the** car key?
-```
-
-#### Things in general
-
-```
-Правило: Коли ми говоримо про загальні речі, ми не використовуємо артиклі
-```
-
-> [!tip] Додавай нові правила за цим шаблоном нижче
+| Дата       | Тема уроку                 | Рівень | Оцінка |
+| ---------- | -------------------------- | ------ | ------ |
+| 30.05.2026 | Articles: 'a', 'an', 'the' | A1-A2  | 4      |
 
 ---
 
@@ -144,15 +89,15 @@ tags:
 
 ### Що дивлюсь зараз
 
-| Назва       | Тип | Мова    | Субтитри | Серія | Статус    |
-| ----------- | --- | ------- | -------- | ----- | --------- |
-| Castelvania | -   | English | English  | 7     | Завершено |
+| Назва                                                  | Тип   | Мова    | Субтитри | Серія | Статус    |
+| ------------------------------------------------------ | ----- | ------- | -------- | ----- | --------- |
+| [Youtube](https://www.youtube.com/watch?v=QF5YpZI1wnk) | Movie | English | English  | 1     | Завершено |
 
 ### 📺 Журнал перегляду
 
-| Дата       | Назва       | Епізод | Нові слова | Нові фрази | Час (хв) |
-| ---------- | ----------- | ------ | ---------- | ---------- | -------- |
-| 07.05.2026 | Castelvania | 7      | Monk       | -          | 25       |
+| Дата       | Назва                                                  | Епізод | Нові слова | Нові фрази | Час (хв) |
+| ---------- | ------------------------------------------------------ | ------ | ---------- | ---------- | -------- |
+| 30.05.2026 | [Youtube](https://www.youtube.com/watch?v=QF5YpZI1wnk) | 1      |            |            | 23       |
 
 ---
 
@@ -165,21 +110,21 @@ tags:
 ### Сайти
 
 - [British Council LearnEnglish](https://learnenglish.britishcouncil.org) — граматика та уроки
-- [YouGlish](https://youglish.com) — вимова у реальному контексті
-- [Linguee](https://www.linguee.com) — переклад із прикладами
 
 ---
 
 ## 📝 Щоденник навчання
 
-### 2026-05-07 — Початок
+### 2026-05-30 — Початок
 
 #### **British Council — що вивчав(ла):**
-
+[Articles: 'a', 'an', 'the']((https://www.youtube.com/watch?v=eJnejBp9edA))
 #### **Медіа — що дивився(лась):**
-Castelvania
+[Articles](https://www.youtube.com/watch?v=eJnejBp9edA)
+[Youtube](https://www.youtube.com/watch?v=QF5YpZI1wnk)
 #### **Час (год):**
-1 година
+1 година 
+
 ---
 
 ## 💡 Поради та інсайти
@@ -201,7 +146,7 @@ const totalHours = page.total_hours || 0;
 const progress = page.progress || 0;
 const rating = page.rating || 0;
 const started = page.started || "—";
-const kokiStreak = page.koki_streak || 0;
+const kokiStreak = page.anki_streak || 0;
 const kokiWords = page.koki_words_learned || 0;
 const bcLessons = page.bc_lessons_done || 0;
 const mediaEps = page.media_episodes_watched || 0;
@@ -288,7 +233,7 @@ dv.paragraph(`
 // ============================================
 const content = await dv.io.load(page.file.path);
 const phases = [
-  { name: "Фаза 1: 🃏 Koki Flashcards", emoji: "🃏", color: "#f59e0b" },
+  { name: "Фаза 1: 🃏 Anki", emoji: "🃏", color: "#f59e0b" },
   { name: "Фаза 2: 📖 British Council", emoji: "📖", color: "#4a9eff" },
   { name: "Фаза 3: 🎬 Медіа", emoji: "🎬", color: "#ef4444" }
 ];
@@ -343,4 +288,4 @@ if (related.length > 0) {
 
 ---
 
-_Шаблон створено: 2026-05-07 | Оновлено: 2026-05-07_
+_Шаблон створено: 2026-05-30 | Оновлено: 2026-05-30_
