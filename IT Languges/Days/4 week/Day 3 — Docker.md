@@ -2,61 +2,131 @@
 language: TSX
 category: Frontend
 difficulty: Intermediate
-status: Завершено
-started: 2026-05-30
-last_reviewed: 2026-05-30
-next_review: 2026-05-30
-total_hours: 2
-progress: 100
-rating: 4
-tags:
-  - IT
-  - learning
-  - programming
-  - IT-Learning
+status: В процесі
+started: 2026-06-03
+last_reviewed: 2026-06-03
+next_review: 2026-06-03
+total_hours: 0
+progress: 0
+rating: 0
+tags: 
+- IT
+- learning
+- programming
+- IT-Learning
 ---
 ## 📋 Загальна інформація
 
-| Поле               | Значення     |
-| ------------------ | ------------ |
-| 🏷️ Мова           | TSX          |
-| 📂 Категорія       | Frontend     |
+| Поле               | Значення         |
+| ------------------ | ---------------- |
+| 🏷️ Мова           | TSX   |
+| 📂 Категорія       | Frontend   |
 | ⚡ Складність       | Intermediate |
-| 🎯 Статус          | Завершено    |
-| 📅 Початок         | 2026-05-30   |
-| ⏱️ Годин витрачено | 2            |
+| 🎯 Статус          | В процесі     |
+| 📅 Початок         | 2026-06-03    |
+| ⏱️ Годин витрачено | 0                |
 
 ---
 
 ## 🗺️ Roadmap навчання
 
 ### Пройдені теми: 
-- [ ] Optimizating
-	- [x] Scripts
-	- [x] Third party libraries
-	- [x] Memory Usage
+- [x] [Namespaces](https://docs.docker.com/engine/security/userns-remap/)
+- [x] [Control Groups](https://www.docker.com/resources/what-container/#control-groups)
+- [x] Union Filesystems
 ---
 
 ## 📚 Ресурси для навчання
 
 ### Документація
-- [Scripts](https://nextjs.org/docs/app/guides/scripts)
-- [Third party libraries](https://nextjs.org/docs/app/guides/third-party-libraries)
-- [Memory usage](https://nextjs.org/docs/app/guides/memory-usage)
+- [Roadmap](https://roadmap.sh/docker)
+
+### Відео курси
+- 
+
+### Практика / Завдання
+- 
+
+### Корисні сайти
+- 
+
+---
+
+## 🧠 Вивчені концепції
+
+### Синтаксис
+
+```tsx
+// Приклад базового синтаксису
+// Додайте свій код тут
+```
+
+#### **Нотатки:**
+> 
+
+---
+
+### Типи даних
+
+```tsx
+// Приклади типів даних
+```
+
+#### **Нотатки:**
+> 
+
+---
+
+### Функції
+
+```tsx
+// Приклади функцій
+```
+
+#### **Нотатки:**
+> 
+
+---
+
+### ООП / Структури
+
+```tsx
+// Приклади класів/структур
+```
+
+**Нотатки:**
+> 
 
 ---
 
 ## 📝 Щоденник навчання
 
-### 2026-05-30 — Початок
+### 2026-06-03 — Початок
 
 ### **Що вивчав:**
-[Scripts](https://nextjs.org/docs/app/guides/scripts)
-[Third party libraries](https://nextjs.org/docs/app/guides/third-party-libraries) 
-[Memory usage](https://nextjs.org/docs/app/guides/memory-usage)
+- 
 
 ### **Час (год):** 
-2 години
+
+---
+
+## 💡 Корисні поради та трюки
+
+> [!tip] Підказка
+> Додайте сюди важливі поради, які ви дізналися
+
+---
+
+## ⚠️ Типові помилки (Gotchas)
+
+> [!warning] Увага
+> Записуйте тут типові пастки та помилки новачків
+
+---
+
+## 🎯 Міні-проєкти для практики
+
+- [ ] **Проєкт 1:** 
 
 ---
 
@@ -273,4 +343,4 @@ if (related.length > 0) {
 
 ---
 
-*Шаблон створено: 2026-05-30 | Оновлено: 2026-05-30
+*Шаблон створено: 2026-06-03 | Оновлено: 2026-06-03

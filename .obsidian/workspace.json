@@ -13,10 +13,10 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "IT Languges/Next JS/Next Js Roadmap.md"
+                "file": "IT Languges/Docker/Docker Roadmap.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Next Js Roadmap"
+              "title": "Docker Roadmap"
             }
           }
         ]
@@ -198,18 +198,23 @@
   },
   "active": "91e85a12b514d9f4",
   "lastOpenFiles": [
-    "IT Languges/Next JS/Next Js Roadmap.md",
+    "IT Languges/Docker/Docker Roadmap.md",
+    "IT Languges/Days/4 week/Day 3 — Docker.md",
+    "IT Languges/Docker",
+    "_files/docker.png",
+    "English/Days/4 week/Day 3 — English.md",
+    "English/Days/4 week/Day 1 — English.md",
+    "English/Days/4 week/Day 2 — English.md",
+    "IT Languges/Days/4 week/Day 1 — Next.js.md",
     "IT Languges/Days/4 week/Day 2 — Next.js.md",
+    "IT Languges/Next JS/Next Js Roadmap.md",
     "IT Languges/Next JS/Next.js Вбудовані типи.md",
     "IT Languges/Next JS/Next.js Вбудовані типи",
-    "English/Days/4 week/Day 2 — English.md",
     "English/Days/3 week/Day 7 — English.md",
-    "English/Days/4 week/Day 1 — English.md",
     "IT Languges/SCSS/Миксины.md",
     "IT Languges/Days/3 week/Day 6 — Next.js.md",
     "IT Languges/Days/3 week/Day 5 — Next.js.md",
     "IT Languges/Days/3 week/Day 7 — Next.js.md",
-    "IT Languges/Days/4 week/Day 1 — Next.js.md",
     "English/Days/4 week",
     "IT Languges/Days/4 week",
     "IT Languges/Next JS/Next.js термінологія муршрутезації.md",
@@ -226,15 +231,10 @@
     "thumbnails/external",
     "thumbnails",
     "IT Languges/Days/3 week/Day 4 — Next.js.md",
-    "IT Languges/Days/3 week/Day 3 — Next.js.md",
-    "templates/English learning.md",
-    "English/Days/2 week/Day 4 — English.md",
-    "English/Days/3 week/Day 4 — English.md",
     "_files/r_popular — Mozilla Firefox 2026-05-24 10-58-37.mp4",
     "_files/r_popular — Mozilla Firefox 2026-05-24 10-56-46.mp4",
     "_files/Новини Reddit — Mozilla Firefox 2026-05-24 10-55-41.mp4",
     "_files/Reddit — Живе серце інтернету — Mozilla Firefox 2026-05-24 10-54-19.mp4",
-    "_files/Reddit — Живе серце інтернету — Mozilla Firefox 2026-05-24 10-53-20.mp4",
     "_files/f4fd3d638cf86f46218cc36e37109507_86cf658e.webp",
     "_files/Pasted image 20260518145629.png",
     "_files/typescript.png",
@@ -244,7 +244,6 @@
     "_files/Pasted image 20260501221051.png",
     "_files/Pasted image 20260427130425.png",
     "_files/Pasted image 20260426135629.png",
-    "_files/Pasted image 20260426135608.png",
     "Без названия 1.canvas",
     "_resources.canvas"
   ]
