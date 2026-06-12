@@ -1,41 +1,33 @@
-<%* 
-let level = await tp.system.suggester(["A1 — Beginner","A2 — Elementary","B1 — Intermediate","B2 — Upper-Intermediate","C1 — Advanced","C2 — Mastery"], ["A1","A2","B1","B2","C1","C2"]) 
-let status = await tp.system.suggester(["Планую","В процесі","Завершено","Призупинено"], ["Планую","В процесі","Завершено","Призупинено"]) 
-let started = tp.date.now("YYYY-MM-DD") 
-let last_reviewed = tp.date.now("YYYY-MM-DD") 
-let next_review = tp.date.now("YYYY-MM-DD", "+7 days") 
-tR += `---
+---
 subject: English
-level: ${level}
-status: ${status}
-started: ${started}
-last_reviewed: ${last_reviewed}
-next_review: ${next_review}
-total_hours: 0
-progress: 0
-rating: 0
-anki_streak: 0
-bc_lessons_done: 0
-media_episodes_watched: 0
+level: A2
+status: Завершено
+started: 2026-06-09
+last_reviewed: 2026-06-09
+next_review: 2026-06-09
+total_hours: 1
+progress: 100
+rating: 4
+anki_streak: 2
+bc_lessons_done: 1
+media_episodes_watched: 1
 tags:
-- English-Learn
-- learning
-- english
-
+  - English-Learn
+  - learning
+  - english
 ---
 
-` -%>
 
 ## 📋 Загальна інформація
 
-| Поле                   | Значення          |
-| ---------------------- | ----------------- |
-| 🌍 Мова                | English           |
-| 🎓 Рівень              | <% level %>       |
-| 🎯 Статус              | <% status %>      |
-| 📅 Початок             | <% started %>     |
-| 🔁 Наступне повторення | <% next_review %> |
-| ⏱️ Годин витрачено     | 0                 |
+| Поле                   | Значення   |
+| ---------------------- | ---------- |
+| 🌍 Мова                | English    |
+| 🎓 Рівень              | A2         |
+| 🎯 Статус              | Завершено  |
+| 📅 Початок             | 2026-06-09 |
+| 🔁 Наступне повторення | 2026-06-09 |
+| ⏱️ Годин витрачено     | 1          |
 
 ---
 
@@ -77,16 +69,18 @@ tags:
 
 ### 📦 Нові слова цього тижня
 
-| Слово | Транскрипція | Переклад | Приклад речення |
-| ----- | ------------ | -------- | --------------- |
-|       |              |          |                 |
-|       |              |          |                 |
-|       |              |          |                 |
+| Слово     | Транскрипція  | Переклад    | Приклад речення                                                |
+| --------- | ------------- | ----------- | -------------------------------------------------------------- |
+| Burn      | [ bə́ːrn]     | Спалити     |                                                                |
+| Exchange  | [ ikstʃéindʒ] | Обмін       | The gentlemen **exchange** phone numbers.                      |
+| Introduce | [ ìntrədjúːs] | Представити | Jane's husband **introduces** her to his handsome friend.      |
+| Prepare   | [/pripέər ]   | Підготувати | The cooks **prepare** a delicious meal in the restaurant.      |
+| Reason    | [ ríːzn]      | Причина     | He did not have a **reason** for arriving late at the theater. |
 
 ### 💪 Streak та статистика
 
-- **Поточний streak:** 0 днів
-- **Максимальний streak:** 0 днів
+- **Поточний streak:** 2 днів
+- **Максимальний streak:** 2 днів
 - **Слів повторено сьогодні:** 0
 
 ---
@@ -95,20 +89,9 @@ tags:
 
 ### Пройдені уроки
 
-| Дата          | Тема уроку | Рівень      | Оцінка |
-| ------------- | ---------- | ----------- | ------ |
-| <% started %> |            | <% level %> |        |
-
-### 📝 Граматичні правила
-
-#### Title
-
-```
-Правило:
-Приклади:
-```
-
-> [!tip] Додавай нові правила за цим шаблоном нижче
+| Дата       | Тема уроку | Рівень | Оцінка |
+| ---------- | ---------- | ------ | ------ |
+| 2026-06-09 | Articles   | A2     | 4      |
 
 ---
 
@@ -116,9 +99,9 @@ tags:
 
 ### Що дивлюсь зараз
 
-| Назва | Тип | Мова    | Субтитри | Серія | Статус |
-| ----- | --- | ------- | -------- | ----- | ------ |
-|       |     | English | English  |       |        |
+| Назва                                                       | Тип   | Мова    | Субтитри | Серія | Статус    |
+| ----------------------------------------------------------- | ----- | ------- | -------- | ----- | --------- |
+| [Youtube](https://youtu.be/9OHRtUHezTk?si=n1lVkFdwzEO0Pa2Z) | Movie | English | English  | 1     | Завершено |
 
 ### 🗣️ Книга цитат та фраз
 
@@ -132,9 +115,9 @@ tags:
 
 ### 📺 Журнал перегляду
 
-| Дата          | Назва | Епізод | Нові слова | Нові фрази | Час (хв) |
-| ------------- | ----- | ------ | ---------- | ---------- | -------- |
-| <% started %> |       |        |            |            |          |
+| Дата       | Назва                                                       | Епізод | Нові слова | Нові фрази | Час (хв) |
+| ---------- | ----------------------------------------------------------- | ------ | ---------- | ---------- | -------- |
+| 2026-06-09 | [Youtube](https://youtu.be/9OHRtUHezTk?si=n1lVkFdwzEO0Pa2Z) | 1      |            |            | 26       |
 
 ---
 
@@ -152,7 +135,7 @@ tags:
 
 ## 📝 Щоденник навчання
 
-### <% tp.date.now("YYYY-MM-DD") %> — Початок
+### 2026-06-09 — Початок
 
 #### **British Council — що вивчав(ла):**
 
@@ -323,4 +306,4 @@ if (related.length > 0) {
 
 ---
 
-_Шаблон створено: <% tp.date.now("YYYY-MM-DD") %> | Оновлено: <% tp.date.now("YYYY-MM-DD") %>_
+_Шаблон створено: 2026-06-09 | Оновлено: 2026-06-09_

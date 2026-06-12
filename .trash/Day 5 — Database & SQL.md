@@ -1,20 +1,11 @@
-<%-*
-let language = await tp.system.prompt("Назва мови?")
-let category = await tp.system.suggester(["Backend","Frontend","Mobile","Systems","Data"], ["Backend","Frontend","Mobile","Systems","Data"])
-let difficulty = await tp.system.suggester(["Beginner","Intermediate","Advanced"], ["Beginner","Intermediate","Advanced"])
-let status = await tp.system.suggester(["Планую","В процесі","Завершено","Призупинено"], ["Планую","В процесі","Завершено","Призупинено"])
-let started = tp.date.now("YYYY-MM-DD")
-let last_reviewed = tp.date.now("YYYY-MM-DD")
-let next_review = tp.date.now("YYYY-MM-DD", "+7 days")
-let language_lower = language.toLowerCase();
-tR += `---
-language: ${language}
-category: ${category}
-difficulty: ${difficulty}
-status: ${status}
-started: ${started}
-last_reviewed: ${last_reviewed}
-next_review: ${next_review}
+---
+language: SQL
+category: Backend
+difficulty: Advanced
+status: В процесі
+started: 2026-06-06
+last_reviewed: 2026-06-06
+next_review: 2026-06-06
 total_hours: 0
 progress: 0
 rating: 0
@@ -24,17 +15,15 @@ tags:
 - programming
 - IT-Learning
 ---
-`
--%>
 ## 📋 Загальна інформація
 
 | Поле               | Значення         |
 | ------------------ | ---------------- |
-| 🏷️ Мова           | <% language %>   |
-| 📂 Категорія       | <% category %>   |
-| ⚡ Складність       | <% difficulty %> |
-| 🎯 Статус          | <% status %>     |
-| 📅 Початок         | <% started %>    |
+| 🏷️ Мова           | SQL   |
+| 📂 Категорія       | Backend   |
+| ⚡ Складність       | Advanced |
+| 🎯 Статус          | В процесі     |
+| 📅 Початок         | 2026-06-06    |
 | ⏱️ Годин витрачено | 0                |
 
 ---
@@ -65,7 +54,7 @@ tags:
 
 ### Синтаксис
 
-```<% language_lower %>
+```sql
 // Приклад базового синтаксису
 // Додайте свій код тут
 ```
@@ -77,7 +66,7 @@ tags:
 
 ### Типи даних
 
-```<% language_lower %>
+```sql
 // Приклади типів даних
 ```
 
@@ -88,7 +77,7 @@ tags:
 
 ### Функції
 
-```<% language_lower %>
+```sql
 // Приклади функцій
 ```
 
@@ -99,7 +88,7 @@ tags:
 
 ### ООП / Структури
 
-```<% language_lower %>
+```sql
 // Приклади класів/структур
 ```
 
@@ -110,7 +99,7 @@ tags:
 
 ## 📝 Щоденник навчання
 
-### <% tp.date.now("YYYY-MM-DD") %> — Початок
+### 2026-06-06 — Початок
 
 ### **Що вивчав:**
 - 
@@ -352,4 +341,4 @@ if (related.length > 0) {
 
 ---
 
-*Шаблон створено: <% tp.date.now("YYYY-MM-DD") %> | Оновлено: <% tp.date.now("YYYY-MM-DD") %>
+*Шаблон створено: 2026-06-06 | Оновлено: 2026-06-06

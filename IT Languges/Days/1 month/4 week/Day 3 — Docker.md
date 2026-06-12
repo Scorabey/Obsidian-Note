@@ -1,40 +1,29 @@
-<%-*
-let language = await tp.system.prompt("Назва мови?")
-let category = await tp.system.suggester(["Backend","Frontend","Mobile","Systems","Data"], ["Backend","Frontend","Mobile","Systems","Data"])
-let difficulty = await tp.system.suggester(["Beginner","Intermediate","Advanced"], ["Beginner","Intermediate","Advanced"])
-let status = await tp.system.suggester(["Планую","В процесі","Завершено","Призупинено"], ["Планую","В процесі","Завершено","Призупинено"])
-let started = tp.date.now("YYYY-MM-DD")
-let last_reviewed = tp.date.now("YYYY-MM-DD")
-let next_review = tp.date.now("YYYY-MM-DD", "+7 days")
-let language_lower = language.toLowerCase();
-tR += `---
-language: ${language}
-category: ${category}
-difficulty: ${difficulty}
-status: ${status}
-started: ${started}
-last_reviewed: ${last_reviewed}
-next_review: ${next_review}
-total_hours: 0
-progress: 0
-rating: 0
-tags: 
-- IT
-- learning
-- programming
-- IT-Learning
 ---
-`
--%>
+language: TSX
+category: Frontend
+difficulty: Intermediate
+status: Завершено
+started: 2026-06-03
+last_reviewed: 2026-06-03
+next_review: 2026-06-03
+total_hours: 1
+progress: 100
+rating: 2
+tags:
+  - IT
+  - learning
+  - programming
+  - IT-Learning
+---
 ## 📋 Загальна інформація
 
 | Поле               | Значення         |
 | ------------------ | ---------------- |
-| 🏷️ Мова           | <% language %>   |
-| 📂 Категорія       | <% category %>   |
-| ⚡ Складність       | <% difficulty %> |
-| 🎯 Статус          | <% status %>     |
-| 📅 Початок         | <% started %>    |
+| 🏷️ Мова           | TSX   |
+| 📂 Категорія       | Frontend   |
+| ⚡ Складність       | Intermediate |
+| 🎯 Статус          | В процесі     |
+| 📅 Початок         | 2026-06-03    |
 | ⏱️ Годин витрачено | 0                |
 
 ---
@@ -42,13 +31,15 @@ tags:
 ## 🗺️ Roadmap навчання
 
 ### Пройдені теми: 
-- [ ] 
+- [x] [Namespaces](https://docs.docker.com/engine/security/userns-remap/)
+- [x] [Control Groups](https://www.docker.com/resources/what-container/#control-groups)
+- [x] Union Filesystems
 ---
 
 ## 📚 Ресурси для навчання
 
 ### Документація
-- 
+- [Roadmap](https://roadmap.sh/docker)
 
 ### Відео курси
 - 
@@ -57,7 +48,7 @@ tags:
 - 
 
 ### Корисні сайти
-- [DataBase Roadmap](https://roadmap.sh/sql)
+- 
 
 ---
 
@@ -65,7 +56,7 @@ tags:
 
 ### Синтаксис
 
-```<% language_lower %>
+```tsx
 // Приклад базового синтаксису
 // Додайте свій код тут
 ```
@@ -77,7 +68,7 @@ tags:
 
 ### Типи даних
 
-```<% language_lower %>
+```tsx
 // Приклади типів даних
 ```
 
@@ -88,7 +79,7 @@ tags:
 
 ### Функції
 
-```<% language_lower %>
+```tsx
 // Приклади функцій
 ```
 
@@ -99,7 +90,7 @@ tags:
 
 ### ООП / Структури
 
-```<% language_lower %>
+```tsx
 // Приклади класів/структур
 ```
 
@@ -110,7 +101,7 @@ tags:
 
 ## 📝 Щоденник навчання
 
-### <% tp.date.now("YYYY-MM-DD") %> — Початок
+### 2026-06-03 — Початок
 
 ### **Що вивчав:**
 - 
@@ -352,4 +343,4 @@ if (related.length > 0) {
 
 ---
 
-*Шаблон створено: <% tp.date.now("YYYY-MM-DD") %> | Оновлено: <% tp.date.now("YYYY-MM-DD") %>
+*Шаблон створено: 2026-06-03 | Оновлено: 2026-06-03

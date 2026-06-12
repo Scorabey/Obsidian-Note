@@ -1,16 +1,10 @@
-<%* 
-let level = await tp.system.suggester(["A1 — Beginner","A2 — Elementary","B1 — Intermediate","B2 — Upper-Intermediate","C1 — Advanced","C2 — Mastery"], ["A1","A2","B1","B2","C1","C2"]) 
-let status = await tp.system.suggester(["Планую","В процесі","Завершено","Призупинено"], ["Планую","В процесі","Завершено","Призупинено"]) 
-let started = tp.date.now("YYYY-MM-DD") 
-let last_reviewed = tp.date.now("YYYY-MM-DD") 
-let next_review = tp.date.now("YYYY-MM-DD", "+7 days") 
-tR += `---
+---
 subject: English
-level: ${level}
-status: ${status}
-started: ${started}
-last_reviewed: ${last_reviewed}
-next_review: ${next_review}
+level: A2
+status: В процесі
+started: 2026-06-12
+last_reviewed: 2026-06-12
+next_review: 2026-06-12
 total_hours: 0
 progress: 0
 rating: 0
@@ -24,17 +18,16 @@ tags:
 
 ---
 
-` -%>
 
 ## 📋 Загальна інформація
 
 | Поле                   | Значення          |
 | ---------------------- | ----------------- |
 | 🌍 Мова                | English           |
-| 🎓 Рівень              | <% level %>       |
-| 🎯 Статус              | <% status %>      |
-| 📅 Початок             | <% started %>     |
-| 🔁 Наступне повторення | <% next_review %> |
+| 🎓 Рівень              | A2       |
+| 🎯 Статус              | В процесі      |
+| 📅 Початок             | 2026-06-12     |
+| 🔁 Наступне повторення | 2026-06-12 |
 | ⏱️ Годин витрачено     | 0                 |
 
 ---
@@ -97,7 +90,7 @@ tags:
 
 | Дата          | Тема уроку | Рівень      | Оцінка |
 | ------------- | ---------- | ----------- | ------ |
-| <% started %> |            | <% level %> |        |
+| 2026-06-12 |            | A2 |        |
 
 ### 📝 Граматичні правила
 
@@ -134,7 +127,7 @@ tags:
 
 | Дата          | Назва | Епізод | Нові слова | Нові фрази | Час (хв) |
 | ------------- | ----- | ------ | ---------- | ---------- | -------- |
-| <% started %> |       |        |            |            |          |
+| 2026-06-12 |       |        |            |            |          |
 
 ---
 
@@ -152,7 +145,7 @@ tags:
 
 ## 📝 Щоденник навчання
 
-### <% tp.date.now("YYYY-MM-DD") %> — Початок
+### 2026-06-12 — Початок
 
 #### **British Council — що вивчав(ла):**
 
@@ -323,4 +316,4 @@ if (related.length > 0) {
 
 ---
 
-_Шаблон створено: <% tp.date.now("YYYY-MM-DD") %> | Оновлено: <% tp.date.now("YYYY-MM-DD") %>_
+_Шаблон створено: 2026-06-12 | Оновлено: 2026-06-12_

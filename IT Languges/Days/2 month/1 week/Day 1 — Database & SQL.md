@@ -1,132 +1,76 @@
 ---
-language: TSX
-category: Frontend
-difficulty: Intermediate
-status: В процесі
-started: 2026-06-03
-last_reviewed: 2026-06-03
-next_review: 2026-06-03
-total_hours: 0
-progress: 0
-rating: 0
-tags: 
-- IT
-- learning
-- programming
-- IT-Learning
+language: SQL
+category: Backend
+difficulty: Advanced
+status: Завершено
+started: 2026-06-11
+last_reviewed: 2026-06-11
+next_review: 2026-06-11
+total_hours: 1
+progress: 100
+rating: 4
+tags:
+  - IT
+  - learning
+  - programming
+  - IT-Learning
 ---
 ## 📋 Загальна інформація
 
-| Поле               | Значення         |
-| ------------------ | ---------------- |
-| 🏷️ Мова           | TSX   |
-| 📂 Категорія       | Frontend   |
-| ⚡ Складність       | Intermediate |
-| 🎯 Статус          | В процесі     |
-| 📅 Початок         | 2026-06-03    |
-| ⏱️ Годин витрачено | 0                |
+| Поле               | Значення   |
+| ------------------ | ---------- |
+| 🏷️ Мова           | SQL        |
+| 📂 Категорія       | Backend    |
+| ⚡ Складність       | Advanced   |
+| 🎯 Статус          | Завершено  |
+| 📅 Початок         | 2026-06-11 |
+| ⏱️ Годин витрачено | 1          |
 
 ---
 
 ## 🗺️ Roadmap навчання
 
 ### Пройдені теми: 
-- [x] [Namespaces](https://docs.docker.com/engine/security/userns-remap/)
-- [x] [Control Groups](https://www.docker.com/resources/what-container/#control-groups)
-- [x] Union Filesystems
+- [x] Aggregate queries
+	- [x] SUM
+	- [x] MAX
+	- [x] MIN
+	- [x] AVG
+	- [x] COUNT
+	- [x] HAVING
+	- [x] GROUP BY
+- [x] Data constants
+	- [x] Primary key
+	- [x] Foreign key
+	- [x] UNIQUE
+	- [x] NOT NULL
+	- [x] CHECK
 ---
-
-## 📚 Ресурси для навчання
-
-### Документація
-- [Roadmap](https://roadmap.sh/docker)
-
-### Відео курси
-- 
-
-### Практика / Завдання
-- 
-
 ### Корисні сайти
-- 
-
----
-
-## 🧠 Вивчені концепції
-
-### Синтаксис
-
-```tsx
-// Приклад базового синтаксису
-// Додайте свій код тут
-```
-
-#### **Нотатки:**
-> 
-
----
-
-### Типи даних
-
-```tsx
-// Приклади типів даних
-```
-
-#### **Нотатки:**
-> 
-
----
-
-### Функції
-
-```tsx
-// Приклади функцій
-```
-
-#### **Нотатки:**
-> 
-
----
-
-### ООП / Структури
-
-```tsx
-// Приклади класів/структур
-```
-
-**Нотатки:**
-> 
+- [DataBase Roadmap](https://roadmap.sh/sql)
 
 ---
 
 ## 📝 Щоденник навчання
 
-### 2026-06-03 — Початок
+### 2026-06-11 — Початок
 
 ### **Що вивчав:**
-- 
+- [x] SUM
+- [x] MAX
+- [x] MIN
+- [x] AVG
+- [x] COUNT
+- [x] HAVING
+- [x] GROUP BY
+- [x] Primary key
+- [x] Foreign key
+- [x] UNIQUE
+- [x] NOT NULL
+- [x] CHECK
 
 ### **Час (год):** 
-
----
-
-## 💡 Корисні поради та трюки
-
-> [!tip] Підказка
-> Додайте сюди важливі поради, які ви дізналися
-
----
-
-## ⚠️ Типові помилки (Gotchas)
-
-> [!warning] Увага
-> Записуйте тут типові пастки та помилки новачків
-
----
-
-## 🎯 Міні-проєкти для практики
-
-- [ ] **Проєкт 1:** 
+1 година +
 
 ---
 
@@ -343,4 +287,4 @@ if (related.length > 0) {
 
 ---
 
-*Шаблон створено: 2026-06-03 | Оновлено: 2026-06-03
+*Шаблон створено: 2026-06-11 | Оновлено: 2026-06-11

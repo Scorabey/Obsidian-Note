@@ -1,61 +1,52 @@
-<%-*
-let language = await tp.system.prompt("Назва мови?")
-let category = await tp.system.suggester(["Backend","Frontend","Mobile","Systems","Data"], ["Backend","Frontend","Mobile","Systems","Data"])
-let difficulty = await tp.system.suggester(["Beginner","Intermediate","Advanced"], ["Beginner","Intermediate","Advanced"])
-let status = await tp.system.suggester(["Планую","В процесі","Завершено","Призупинено"], ["Планую","В процесі","Завершено","Призупинено"])
-let started = tp.date.now("YYYY-MM-DD")
-let last_reviewed = tp.date.now("YYYY-MM-DD")
-let next_review = tp.date.now("YYYY-MM-DD", "+7 days")
-let language_lower = language.toLowerCase();
-tR += `---
-language: ${language}
-category: ${category}
-difficulty: ${difficulty}
-status: ${status}
-started: ${started}
-last_reviewed: ${last_reviewed}
-next_review: ${next_review}
-total_hours: 0
-progress: 0
-rating: 0
-tags: 
-- IT
-- learning
-- programming
-- IT-Learning
 ---
-`
--%>
+language: SQL
+category: Backend
+difficulty: Advanced
+status: Завершено
+started: 2026-06-10
+last_reviewed: 2026-06-10
+next_review: 2026-06-10
+total_hours: 1
+progress: 100
+rating: 4
+tags:
+  - IT
+  - learning
+  - programming
+  - IT-Learning
+---
 ## 📋 Загальна інформація
 
-| Поле               | Значення         |
-| ------------------ | ---------------- |
-| 🏷️ Мова           | <% language %>   |
-| 📂 Категорія       | <% category %>   |
-| ⚡ Складність       | <% difficulty %> |
-| 🎯 Статус          | <% status %>     |
-| 📅 Початок         | <% started %>    |
-| ⏱️ Годин витрачено | 0                |
+| Поле               | Значення   |
+| ------------------ | ---------- |
+| 🏷️ Мова           | SQL        |
+| 📂 Категорія       | Backend    |
+| ⚡ Складність       | Advanced   |
+| 🎯 Статус          | Завершено  |
+| 📅 Початок         | 2026-06-10 |
+| ⏱️ Годин витрачено | 1          |
 
 ---
 
 ## 🗺️ Roadmap навчання
 
 ### Пройдені теми: 
-- [ ] 
+- [x] DML
+	- [x] FROM
+	- [x] WHERE
+	- [x] JOINs
+	- [x] GROUP BY
+	- [x] ORDER BY
+	- [x] HAVING
+	- [x] INSERT
+	- [x] UPDATE
+	- [x] DELETE
 ---
 
 ## 📚 Ресурси для навчання
 
 ### Документація
-- 
-
-### Відео курси
-- 
-
-### Практика / Завдання
-- 
-
+- [DML](https://www.geeksforgeeks.org/sql/sql-ddl-dql-dml-dcl-tcl-commands/)
 ### Корисні сайти
 - [DataBase Roadmap](https://roadmap.sh/sql)
 
@@ -65,77 +56,56 @@ tags:
 
 ### Синтаксис
 
-```<% language_lower %>
-// Приклад базового синтаксису
-// Додайте свій код тут
+```sql
+-- INSERT
+INSERT INTO table_name (column1, column2, ...) VALUES (value1, value2, ...);
+
+-- UPDATE
+UPDATE table_name SET column1 = value1, column2 = value2 WHERE condition;
+
+-- DELETE
+DELETE FROM table_name WHERE condition;
+
+-- JOIN
+SELECT столбік
+FROM таблиця_1
+JOIN таблиця_2 ON таблиця_1.поле = таблиця_2.поле; 
+
+-- GROUP BY
+SELECT
+	user_id,
+	COUNT(*) AS products_count
+FROM products
+GROUP BY user_id;
+
+-- ORDER BY
+SELECT *
+FROM table_name
+ORDER BY column_name ASC|DESC;
 ```
 
 #### **Нотатки:**
-> 
-
----
-
-### Типи даних
-
-```<% language_lower %>
-// Приклади типів даних
-```
-
-#### **Нотатки:**
-> 
-
----
-
-### Функції
-
-```<% language_lower %>
-// Приклади функцій
-```
-
-#### **Нотатки:**
-> 
-
----
-
-### ООП / Структури
-
-```<% language_lower %>
-// Приклади класів/структур
-```
-
-**Нотатки:**
-> 
+> JOIN — об'єднує поля з різних таблиць по співпадаючим полям
 
 ---
 
 ## 📝 Щоденник навчання
 
-### <% tp.date.now("YYYY-MM-DD") %> — Початок
+### 2026-06-10 — Початок
 
 ### **Що вивчав:**
-- 
+- [x] FROM
+- [x] WHERE
+- [x] JOINs
+- [x] GROUP BY
+- [x] ORDER BY
+- [x] HAVING
+- [x] INSERT
+- [x] UPDATE
+- [x] DELETE
 
 ### **Час (год):** 
-
----
-
-## 💡 Корисні поради та трюки
-
-> [!tip] Підказка
-> Додайте сюди важливі поради, які ви дізналися
-
----
-
-## ⚠️ Типові помилки (Gotchas)
-
-> [!warning] Увага
-> Записуйте тут типові пастки та помилки новачків
-
----
-
-## 🎯 Міні-проєкти для практики
-
-- [ ] **Проєкт 1:** 
+1 година +
 
 ---
 
@@ -352,4 +322,4 @@ if (related.length > 0) {
 
 ---
 
-*Шаблон створено: <% tp.date.now("YYYY-MM-DD") %> | Оновлено: <% tp.date.now("YYYY-MM-DD") %>
+*Шаблон створено: 2026-06-10 | Оновлено: 2026-06-10

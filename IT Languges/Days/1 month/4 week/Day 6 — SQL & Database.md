@@ -1,61 +1,47 @@
-<%-*
-let language = await tp.system.prompt("Назва мови?")
-let category = await tp.system.suggester(["Backend","Frontend","Mobile","Systems","Data"], ["Backend","Frontend","Mobile","Systems","Data"])
-let difficulty = await tp.system.suggester(["Beginner","Intermediate","Advanced"], ["Beginner","Intermediate","Advanced"])
-let status = await tp.system.suggester(["Планую","В процесі","Завершено","Призупинено"], ["Планую","В процесі","Завершено","Призупинено"])
-let started = tp.date.now("YYYY-MM-DD")
-let last_reviewed = tp.date.now("YYYY-MM-DD")
-let next_review = tp.date.now("YYYY-MM-DD", "+7 days")
-let language_lower = language.toLowerCase();
-tR += `---
-language: ${language}
-category: ${category}
-difficulty: ${difficulty}
-status: ${status}
-started: ${started}
-last_reviewed: ${last_reviewed}
-next_review: ${next_review}
-total_hours: 0
-progress: 0
-rating: 0
-tags: 
-- IT
-- learning
-- programming
-- IT-Learning
 ---
-`
--%>
+language: SQL
+category: Backend
+difficulty: Advanced
+status: Завершено
+started: 2026-06-09
+last_reviewed: 2026-06-09
+next_review: 2026-06-09
+total_hours: 1
+progress: 100
+rating: 5
+tags:
+  - IT
+  - learning
+  - programming
+  - IT-Learning
+---
 ## 📋 Загальна інформація
 
-| Поле               | Значення         |
-| ------------------ | ---------------- |
-| 🏷️ Мова           | <% language %>   |
-| 📂 Категорія       | <% category %>   |
-| ⚡ Складність       | <% difficulty %> |
-| 🎯 Статус          | <% status %>     |
-| 📅 Початок         | <% started %>    |
-| ⏱️ Годин витрачено | 0                |
+| Поле               | Значення   |
+| ------------------ | ---------- |
+| 🏷️ Мова           | SQL        |
+| 📂 Категорія       | Backend    |
+| ⚡ Складність       | Advanced   |
+| 🎯 Статус          | Завершено  |
+| 📅 Початок         | 2026-06-09 |
+| ⏱️ Годин витрачено | 1          |
 
 ---
 
 ## 🗺️ Roadmap навчання
 
 ### Пройдені теми: 
-- [ ] 
+- [x] Statements
+	- [x] Insert
+	- [x] Select
+	- [x] Delete
+	- [x] Update
+- [ ] Data definition language
+	- [x] Truncate table
+	- [x] Alter table
+	- [x] Create table
+	- [x] Drop table
 ---
-
-## 📚 Ресурси для навчання
-
-### Документація
-- 
-
-### Відео курси
-- 
-
-### Практика / Завдання
-- 
-
 ### Корисні сайти
 - [DataBase Roadmap](https://roadmap.sh/sql)
 
@@ -65,77 +51,95 @@ tags:
 
 ### Синтаксис
 
-```<% language_lower %>
-// Приклад базового синтаксису
-// Додайте свій код тут
+```sql
+-- "SELECT" — отримання данних
+select * from users;
+
+select login, password from users;
+
+-- "INSERT" - додавання нових данних
+insert into users (login, password) values ('Sergey', '31knkfk21');
+
+-- "UPDATE" - оновлення данних
+update users set "password" = 'lj13jlhfd' where id = 2;
+
+-- "DELETE" - видалення данних
+delete from users where id = 3;
+
+-- Додати колонку
+ALTER TABLE users ADD COLUMN phone VARCHAR(20);
+
+-- Видалити колонку
+ALTER TABLE users DROP COLUMN phone;
+
+-- Змінити тип колонки
+ALTER TABLE users ALTER COLUMN age TYPE BIGINT;
+
+-- Перейменувати колонку
+ALTER TABLE users RENAME COLUMN name TO full_name;
+
+-- Перейменувати таблицю
+ALTER TABLE users RENAME TO clients;
+
+-- Додати обмеження
+ALTER TABLE users ADD CONSTRAINT chk_age CHECK (age >= 18);
+
+-- Видалити обмеження
+ALTER TABLE users DROP CONSTRAINT chk_age;
+
+-- Видалити таблицю
+DROP TABLE users;
+
+-- Безпечне видалення (без помилки якщо не існує)
+DROP TABLE IF EXISTS users;
+
+-- Видалити навіть якщо є залежності (зовнішні ключі)
+DROP TABLE users CASCADE;
+
+-- Видалити всі рядки, але зберегти структуру
+TRUNCATE TABLE users;
+
+-- Скинути лічильник автоінкременту
+TRUNCATE TABLE users RESTART IDENTITY;
+
+-- Очистити кілька таблиць одразу
+TRUNCATE TABLE users, orders, logs;
 ```
 
 #### **Нотатки:**
-> 
+> У SQL є чіткий порядок послідовності команд
+> Truncate — очистка данних в таблиці
+> Alter — Змінна структури таблиці
 
 ---
 
 ### Типи даних
 
-```<% language_lower %>
+```sql
 // Приклади типів даних
 ```
 
 #### **Нотатки:**
-> 
 
----
-
-### Функції
-
-```<% language_lower %>
-// Приклади функцій
-```
-
-#### **Нотатки:**
-> 
-
----
-
-### ООП / Структури
-
-```<% language_lower %>
-// Приклади класів/структур
-```
-
-**Нотатки:**
-> 
 
 ---
 
 ## 📝 Щоденник навчання
 
-### <% tp.date.now("YYYY-MM-DD") %> — Початок
+### 2026-06-09 — Початок
 
 ### **Що вивчав:**
-- 
+- [x] Insert
+- [x] Select
+- [x] Delete
+- [x] Update
+- [x] Truncate table
+- [x] Alter table
+- [x] Create table
+- [x] Drop table
 
 ### **Час (год):** 
-
----
-
-## 💡 Корисні поради та трюки
-
-> [!tip] Підказка
-> Додайте сюди важливі поради, які ви дізналися
-
----
-
-## ⚠️ Типові помилки (Gotchas)
-
-> [!warning] Увага
-> Записуйте тут типові пастки та помилки новачків
-
----
-
-## 🎯 Міні-проєкти для практики
-
-- [ ] **Проєкт 1:** 
+1 година + 
 
 ---
 
@@ -352,4 +356,4 @@ if (related.length > 0) {
 
 ---
 
-*Шаблон створено: <% tp.date.now("YYYY-MM-DD") %> | Оновлено: <% tp.date.now("YYYY-MM-DD") %>
+*Шаблон створено: 2026-06-09 | Оновлено: 2026-06-09
