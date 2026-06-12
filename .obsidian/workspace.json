@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "English/Days/2 month/1 week/Day 3 — English.md",
+                "file": "IT Languges/Days/2 month/1 week/Day 2 — Database & SQL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day 3 — English"
+              "title": "Day 2 — Database & SQL"
             }
           }
         ]
@@ -198,17 +198,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "91e85a12b514d9f4",
+  "active": "c42aafd73f7afa59",
   "lastOpenFiles": [
-    "IT Languges/Days/2 month/1 week/Day 1 — Database & SQL.md",
-    "English/Days/2 month/1 week/Day 3 — English.md",
-    "IT Languges/DataBase and SQL/SQL Roadmap.md",
     "IT Languges/Days/1 month/4 week/Day 7 — Database & SQL.md",
+    "IT Languges/Days/2 month/1 week/Day 1 — Database & SQL.md",
+    "IT Languges/Days/2 month/1 week/Day 2 — Database & SQL.md",
+    "IT Languges/DataBase and SQL/SQL Roadmap.md",
+    "English/Days/2 month/1 week/Day 3 — English.md",
     "English/Days/2 month/1 week/Day 2 — English.md",
+    "English/Days/2 month/1 week/Day 1 — English.md",
     "IT Languges/Days/2 month/1 week",
     "IT Languges/Days/2 month",
     "IT Languges/Days/1 month",
-    "English/Days/2 month/1 week/Day 1 — English.md",
     "IT Languges/Days/1 month/4 week/Day 6 — SQL & Database.md",
     "English/Days/1 month/4 week/Day 7 — English.md",
     "English/Days/2 month/1 week/Без названия.md",
@@ -237,7 +238,6 @@
     "thumbnails/resized",
     "thumbnails",
     "_files/Pasted image 20260605111951.png",
-    "IT Languges/Docker/Docker Roadmap.md",
     "IT Languges/Docker",
     "_files/docker.png",
     "thumbnails/external/58ba64170762bfa3190eea9301e75cbc.svg",
